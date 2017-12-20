@@ -15,4 +15,4 @@ def position_taken?(array, index)
     nil = true
   end
 end
-position_taken(board, 1)
+position_taken?(board, 1)
