@@ -1,6 +1,6 @@
 # code your #position_taken? method here!
 
-board = [" ", "", "", "", "", "", "", "", ""]
+board = ["", "", "", "", "", "", "", "", ""]
 
 def position_taken?(array, index)
   if "#{array[inex]}" == nil || "#{array[index]}" == "" || "#{array[index]}" == " "
