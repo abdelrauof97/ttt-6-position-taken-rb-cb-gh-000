@@ -9,18 +9,12 @@ end
 board = ["", "", "", "", "", "", "", "", ""]
 
 def position_taken?(board, index)
-  if "#{board[inex]}" == nil
-    return false
+  if "#{board[inex]}" == nil || "#{board[index]}" == "" || "#{board[index]}" == " "
+    taken = false
   end
   if "board[index]" == "X" || "#{board[index]}" == "O"
-    return true
-  end
-  if "board[index]" == ""
-    return false
-  end
-  if "board[index]" == " "
-    return false
+    taken = true
   end
 end
-index = 0
-disply_board(board)
+
+
