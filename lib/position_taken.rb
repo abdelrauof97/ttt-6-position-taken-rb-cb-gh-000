@@ -4,8 +4,10 @@ board = ["", "", "", "", "", "", "", "", ""]
 
 def position_taken?(board, index)
   if "#{board[inex]}" == nil || "#{board[index]}" == "" || "#{board[index]}" == " "
-    nil = false
+    return false
   else
-    nil = true
+    return true
   end
+  raise "#{board[position]} is not a valid move"
 end
+puts position_taken
