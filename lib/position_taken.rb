@@ -8,8 +8,8 @@ def disply_board(board)
 end
 board = ["X", "", "", "", "", "", "", "", ""]
 
-def position_taken?(board, index)
-  if "#{board[inex]}" == nil || "#{board[index]}" == "" || "#{board[index]}" == " "
+def position_taken?(array, index)
+  if "#{array[inex]}" == nil || "#{array[index]}" == "" || "#{array[index]}" == " "
     nil = false
   else
     nil = true
