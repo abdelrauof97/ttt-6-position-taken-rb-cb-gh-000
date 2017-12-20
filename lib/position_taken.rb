@@ -23,4 +23,4 @@ def position_taken?(board, index)
   end
 end
 index = 0
-disply_board
+disply_board(board)
