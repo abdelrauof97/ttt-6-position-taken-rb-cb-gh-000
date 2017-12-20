@@ -12,7 +12,8 @@ def position_taken?(board, index)
   if "#{board[inex]}" == nil || "#{board[index]}" == "" || "#{board[index]}" == " "
     taken = false
   end
-  if "board[index]" == "X" || "#{board[index]}" == "O"
+  if "#{board[index]}" == "X" || "#{board[index]}" == "O"
     taken = true
   end
 end
+position_taken(board, 0)
