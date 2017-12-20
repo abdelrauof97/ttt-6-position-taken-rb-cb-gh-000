@@ -8,7 +8,7 @@ def disply_board(board)
 end
 board = ["", "", "", "", "", "", "", "", ""]
 def position_taken?(board, index)
-  if "#{board[inex]}" == nil 
+  if "#{board[inex]}" == nil
     return false
   end
 end
