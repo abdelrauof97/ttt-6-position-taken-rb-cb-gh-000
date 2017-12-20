@@ -11,3 +11,4 @@ def position_taken?(board, index)
   raise "#{board[position]} is not a valid move"
 end
 position_taken?(board, 1)
+puts position_taken?(board, 1)
