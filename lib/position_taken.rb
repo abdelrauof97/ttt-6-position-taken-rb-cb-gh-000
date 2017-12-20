@@ -2,8 +2,8 @@
 
 board = ["", "", "", "", "", "", "", "", ""]
 
-def position_taken?(array, index)
-  if "#{array[inex]}" == nil || "#{array[index]}" == "" || "#{array[index]}" == " "
+def position_taken?(board, index)
+  if "#{board[inex]}" == nil || "#{board[index]}" == "" || "#{board[index]}" == " "
     nil = false
   else
     nil = true
