@@ -7,3 +7,8 @@ def disply_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 board = ["", "", "", "", "", "", "", "", ""]
+def position_taken?(board, index)
+  if "#{board[inex]}" == nil 
+    return false
+  end
+end
