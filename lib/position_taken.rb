@@ -6,14 +6,14 @@ def disply_board(board)
   puts "----------"
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
-board = ["", "", "", "", "", "", "", "", ""]
+board = ["X", "", "", "", "", "", "", "", ""]
 
 def position_taken?(board, index)
   if "#{board[inex]}" == nil || "#{board[index]}" == "" || "#{board[index]}" == " "
     taken = false
   end
   if "#{board[index]}" == "X" || "#{board[index]}" == "O"
-    taken = true
+    taken
   end
 end
 position_taken(board, 0)
