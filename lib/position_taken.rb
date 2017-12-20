@@ -10,10 +10,9 @@ board = ["X", "", "", "", "", "", "", "", ""]
 
 def position_taken?(board, index)
   if "#{board[inex]}" == nil || "#{board[index]}" == "" || "#{board[index]}" == " "
-    taken = false
-
+    nil = false
   else
-    taken = true
+    nil = true
   end
 end
-position_taken(board, 0)
+position_taken(board, 1)
